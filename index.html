@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f1">
+  <meta name="description" content="Instagram design samples by Jayati for the Consultant, Policy Planning & Research Division role.">
+  <title>Jayati — MEA Consultant Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <nav class="topbar" aria-label="Main">
+        <a class="wordmark" href="#" aria-label="Jayati home">JAYATI<span class="dot">.</span></a>
+        <span class="top-note">MEA CONSULTANT PORTFOLIO <span class="year">/ PP&amp;R</span></span>
+      </nav>
+
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> INSTAGRAM POST DESIGNS</p>
+        <h1 id="intro-title">Hi, Jayati here.<br>Come over &amp; see my <span class="highlight">designs.</span></h1>
+        <div class="intro-bottom">
+          <p>Instagram design samples<br class="desktop-break"> for policy and public communication.</p>
+          <a class="scroll-link" href="#work">EXPLORE THE WORK <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <div class="colour-line" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE GALLERY</p>
+          <h2 id="work-title">Selected work<span class="heading-dot">.</span></h2>
+        </div>
+        <p class="section-note">04 CREATIONS <span>·</span> TAP TO EXPAND</p>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <button class="work-card card-orange has-image" data-index="0" aria-label="Open Sushma Swaraj Institute design">
+          <span class="card-meta"><span>01 / 04</span><span class="open-icon">↗</span></span>
+          <span class="placeholder-art art-one" aria-hidden="true"><span class="art-big">SUSHMA SWARAJ INSTITUTE</span></span>
+          <img class="design-image" src="images/design-01.jpg" alt="Instagram post about the Sushma Swaraj Institute of Foreign Services being established in 1986" loading="lazy">
+          <span class="card-caption">Sushma Swaraj Institute <span>↗</span></span>
+        </button>
+
+        <button class="work-card card-green has-image" data-index="1" aria-label="Open NRI versus PIO infographic">
+          <span class="card-meta"><span>02 / 04</span><span class="open-icon">↗</span></span>
+          <span class="placeholder-art art-two" aria-hidden="true"><span class="art-big">NRI V/S PIO</span></span>
+          <img class="design-image" src="images/design-02.jpg" alt="NRI versus PIO infographic comparing Indian diaspora populations" loading="lazy">
+          <span class="card-caption">NRI vs PIO <span>↗</span></span>
+        </button>
+
+        <button class="work-card card-blue has-image" data-index="2" aria-label="Open Indian diaspora design">
+          <span class="card-meta"><span>03 / 04</span><span class="open-icon">↗</span></span>
+          <span class="placeholder-art art-three" aria-hidden="true"><span class="art-big">INDIAN DIASPORA</span></span>
+          <img class="design-image" src="images/design-03.jpg" alt="Instagram post with an airport scene and the text This is where Indian Diaspora Stays" loading="lazy">
+          <span class="card-caption">Indian Diaspora <span>↗</span></span>
+        </button>
+
+        <button class="work-card card-saffron has-image" data-index="3" aria-label="Open Know Your Country design">
+          <span class="card-meta"><span>04 / 04</span><span class="open-icon">↗</span></span>
+          <span class="placeholder-art art-five" aria-hidden="true"><span class="art-big">KNOW YOUR COUNTRY</span></span>
+          <img class="design-image" src="images/design-04.jpg" alt="Know Your Country Instagram post featuring the Indian national flag" loading="lazy">
+          <span class="card-caption">Know Your Country <span>↗</span></span>
+        </button>
+      </div>
+      <p class="gallery-hint"><span class="hint-mark">↗</span> Select any design to view it up close.</p>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-rule"></div>
+      <div class="footer-content">
+        <p class="footer-title">Visual storytelling for a global audience<span class="heading-dot">.</span></p>
+        <a class="contact-link" href="mailto:hello@example.com">LET’S CONNECT <span>↗</span></a>
+      </div>
+      <div class="footer-bottom"><span>MADE WITH INTENTION</span><span>CONSULTANT · PP&amp;R DIVISION</span></div>
+    </footer>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Expanded design preview">
+    <div class="lightbox-top">
+      <span class="lightbox-count" id="lightbox-count">01 / 05</span>
+      <button class="close-button" id="close-lightbox" aria-label="Close preview">CLOSE <span>×</span></button>
+    </div>
+    <button class="lightbox-arrow prev" id="prev-design" aria-label="Previous design">←</button>
+    <div class="lightbox-stage" id="lightbox-stage">
+      <div class="lightbox-placeholder" id="lightbox-placeholder"></div>
+      <img id="lightbox-image" alt="">
+    </div>
+    <button class="lightbox-arrow next" id="next-design" aria-label="Next design">→</button>
+    <div class="lightbox-bottom"><span id="lightbox-label">Design sample 01</span><span>ESC TO CLOSE</span></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
